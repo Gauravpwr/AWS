@@ -4,7 +4,6 @@ import com.amazonaws.services.sqs.model.AmazonSQSException;
 import com.amazonaws.services.sqs.model.CreateQueueRequest;
 import com.amazonaws.services.sqs.model.ListQueuesRequest;
 import com.amazonaws.services.sqs.model.ListQueuesResult;
-import java.util.Date;
 
 public class QueueService {
     private static final String QUEUE_NAME = "Tenant_status.fifo" ;

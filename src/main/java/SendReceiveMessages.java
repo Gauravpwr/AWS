@@ -26,7 +26,6 @@ import com.amazonaws.services.sqs.AmazonSQS;
 import com.amazonaws.services.sqs.AmazonSQSClientBuilder;
 import com.amazonaws.services.sqs.model.*;
 
-import java.util.Date;
 import java.util.List;
 
 public class SendReceiveMessages {
